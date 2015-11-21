@@ -1,0 +1,9 @@
+{
+  "name": "esteam",
+  "version": "0.1.0",
+  "description": "facebook hackathon",
+  "repository": "https://github.com/cheponin/esteam",
+  "dependencies": {
+    "statik": "~1.2.5"
+  }
+}
