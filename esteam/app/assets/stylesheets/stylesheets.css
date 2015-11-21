@@ -1,0 +1,214 @@
+/* Place site styles below! 
+
+Happy Coding! */
+
+
+@font-face {
+	font-family: 'Conv_GothamRnd-Bold';
+	src: url('fonts/GothamRnd-Bold.eot');
+	src: local('☺'), url('fonts/GothamRnd-Bold.woff') format('woff'), url('fonts/GothamRnd-Bold.ttf') format('truetype'), url('fonts/GothamRnd-Bold.svg') format('svg');
+	font-weight: bold;
+	font-style: bold;
+}
+
+@font-face {
+	font-family: 'Conv_GothamRnd-Book';
+	src: url('fonts/GothamRnd-Book.eot');
+	src: local('☺'), url('fonts/GothamRnd-Book.woff') format('woff'), url('fonts/GothamRnd-Book.ttf') format('truetype'), url('fonts/GothamRnd-Book.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-size: 12px;
+	font-family: Conv_GothamRnd-Book, Arial, sans-serif;
+    line-height: 150%;
+    margin: 0px;
+    background-color: #edecec;
+}
+
+h1 {
+	font-size: 36px;
+	font-family: Conv_GothamRnd-Bold, Arial, sans-serif;
+    line-height: 150%;
+    margin: 0px;
+}
+h3 {
+	font-size: 14px;
+	font-family: Conv_GothamRnd-Book, Arial, sans-serif;
+    line-height: 150%;
+    margin: 0px;
+}
+
+h4  {
+	font-size: 12px;
+	font-family: Conv_GothamRnd-Book, Arial, sans-serif;
+    line-height: 150%;
+    margin: 0px;
+}
+
+
+.main-nav {
+   position: fixed;
+	height: 70px;
+    width: 100%;
+}
+
+#brand {
+    text-indent:-9000000px;
+    background: url('images/brand.png') no-repeat top left;
+    background-size: 50%;
+    height: 60px;
+    float: left;
+    margin: 15px;
+}
+
+.main-nav ul {
+    list-style: none;
+    float:right;
+    width: auto;
+    margin-right: 20px;
+    text-decoration: none;
+    
+}
+
+.main-nav li {
+	float: left;
+    width: auto;
+    padding: 10px 10px;
+    display: block;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover { 
+    color: #f05b60;
+    text-decoration: none;
+}
+
+#hero {
+	background: url(images/header2.png) no-repeat top left;
+	text-align: center;
+	color: #fafafa;
+	background-size: cover;
+	height: 500px;
+    width: 100%;
+}
+#hero img {
+    width: 100%; 
+    height: 400px;
+}
+
+#hero h1 {
+    padding: 200px 20px;
+    color: #f05b60;
+}
+#hero span.city {
+    padding: 10px 20px;
+    display: inline;
+}
+
+.container {
+	width: 1000px;
+    margin: 0 auto;
+    margin-top: 90px;
+    height: 260px;
+    padding: 1%;
+    background-color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+.container p h2{
+margin: 20px;
+}
+.row {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding: 1%;
+    background-color: white;
+}
+
+.blurb {
+    padding: 3%;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    color: #f05b60;
+}
+
+#photos 
+{
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+} 
+#facebook
+{
+ float:right;
+padding-left: 20px;
+    
+}
+
+.container2
+{
+   width: 1024px; 
+    height: 400px;
+    margin: 0 auto; 
+
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 17px;
+}
+.column img {
+    width: 100%;
+    max-width:100%;
+
+    margin-bottom: 20px;
+}
+.column h4 {
+    font-size: 150%;
+    margin-bottom: 15px;
+}
+.column .btn {
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+
+
+
+.footer
+{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding: 1%;
+    background-color: #f05b60;
+    color: white;
+    text-align: center;
+}
+.footercontent li
+{
+    list-style-type: none;
+}
+
+.footercontent
+{
+    margin: 0 auto;
+    color: white;
+    margin: 40px 40px;
+    text-align: center;
+
+}
+
